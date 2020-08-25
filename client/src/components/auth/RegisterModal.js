@@ -13,8 +13,8 @@ import {
 } from "reactstrap";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
-import { register } from "../../actions/authActions";
-import { clearErrors } from "../../actions/errorActions";
+import { register } from "../../redux/actions/authActions";
+import { clearErrors } from "../../redux/actions/errorActions";
 
 class RegisterModal extends Component {
   state = {

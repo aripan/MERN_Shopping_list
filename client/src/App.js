@@ -4,8 +4,8 @@ import ShoppingList from "./components/ShoppingList";
 import ItemModal from "./components/ItemModal";
 import { Container } from "reactstrap";
 import { Provider } from "react-redux";
-import store from "./store";
-import { loadUser } from "./actions/authActions";
+import store from "./redux/store";
+import { loadUser } from "./redux/actions/authActions";
 
 // Import bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
